@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "vue/setup-compiler-macros": true
+  },
+  "extends": [
+    "plugin:vue/vue3-recommended",
+    "eslint:recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "vue/custom-event-name-casing": ["error", "camelCase"],
+    "vue/attributes-order": [
+      "warn",
+      {
+        "alphabetical": true
+      }
+    ]
+  }
+}
